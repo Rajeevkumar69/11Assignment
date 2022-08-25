@@ -64,5 +64,24 @@ Ans.    a=int(input("Enter a number: "))
                 count1=count1+1
         print(count+count1)
         
-Q9.    Write a python script to orint binary equivalent of a given decimal number(den't use bin()method).
-Ans.    
+Q9.    Write a python script to orint binary equivalent of a given decimal number(don't use bin()method).
+Ans.    a=int(input("Enter a decimal number: "))
+        binary=a
+        x=""
+        for e in range(binary):
+               x=str(binary%2)+x
+               binary //=2
+        print(x)
+        
+Q10.   Write a python script to print octal equivalent of a given decimal number(don't use oct()method).
+Ans.    a=int(input("Enter a decimal number: "))
+        octal=0
+        ctr=0
+        temp=a
+        for e in range(temp):
+              if temp>0:
+                 octal+=((temp%8)*(10**ctr))
+                 temp=int(temp/8)
+                 ctr+=1
+       print(octal)
+
