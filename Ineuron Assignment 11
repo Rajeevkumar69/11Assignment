@@ -41,14 +41,4 @@ Ans.   a=int(input("Enter a number: "))
        print(fact)
        
 Q7.   Write a python script to count digit of a given number.
-Ans.   
-
-
-
-
-
-
-
-
-       
-       
+Ans.
